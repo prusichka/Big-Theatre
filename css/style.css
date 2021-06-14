@@ -1,0 +1,113 @@
+/*--HEADER--*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+main {
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 1110px;
+  padding: 0;
+  margin: 0;
+}
+.header-left {
+  display: flex;
+}
+.header-left a {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-right: 63px;
+  text-decoration: none;
+}
+.header-left a:hover {
+  text-decoration: underline;
+  text-decoration-color: #d1a954;
+  text-decoration-style: double;
+}
+.header-right a {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-right a:hover {
+  text-decoration: underline;
+  text-decoration-color: #d1a954;
+  text-decoration-style: double;
+}
+.first-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 190px;
+  margin-bottom: 208px;
+}
+.first-screen-text {
+  max-width: 540px;
+}
+.first-screen-text h1 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.first-screen-text h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.first-screen-text button {
+  background: #d1a954;
+  color: white;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  padding: 16px 47px;
+}
+
+.sideBar {
+  position: fixed;
+  width: 150px;
+  height: 1045px;
+  left: 0px;
+  top: 0px;
+  background: rgba(51, 51, 51, 0.75);
+}
+
