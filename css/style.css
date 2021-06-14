@@ -1,6 +1,12 @@
 /*--HEADER--*/
 body {
   background: rgba(51, 51, 51, 1);
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -173,11 +179,28 @@ main {
   display: flex;
   justify-content: center;
 }
+.about h1 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 100px;
+}
 .about__content {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+.about__content__main {
+  display: flex;
   width: 1110px;
-  margin-top: 150px;
   justify-content: space-between;
 }
 .best__theater {
@@ -209,7 +232,6 @@ main {
 .about__theater {
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
 }
 .about__theater__top {
   display: flex;
@@ -253,4 +275,27 @@ main {
 .about__img {
   width: 350px;
   height: 292px;
+}
+.our__productions {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+.our__productions h1 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.our__productions__slider{
+  text-align: right;
+  padding-top: 100px;
+}
+.our__productions__content{
+  display: flex;
+  flex-direction: row-reverse;
 }
