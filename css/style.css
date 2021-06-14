@@ -1,4 +1,7 @@
 /*--HEADER--*/
+body {
+  background: rgba(51, 51, 51, 1);
+}
 
 header {
   display: flex;
@@ -165,4 +168,74 @@ main {
 .link__img-YT:hover {
   filter: invert(67%) sepia(16%) saturate(1120%) hue-rotate(3deg)
     brightness(96%) contrast(104%);
+}
+.about {
+  display: flex;
+  justify-content: center;
+}
+.about__content {
+  display: flex;
+  align-items: center;
+  width: 1110px;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+.best__theater {
+  display: flex;
+  flex-direction: column;
+}
+.best__theater span {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.best__theater h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.about__theater {
+  display: flex;
+  flex-direction: column;
+}
+.about__theater h1 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.about__theater h4 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.about__theater h6 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+.about__img{
+  width: 350px;
+  height: 292px;
 }
