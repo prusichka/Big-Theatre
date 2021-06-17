@@ -105,6 +105,10 @@ main {
   color: #ffffff;
   margin-bottom: 50px;
 }
+.first-screen-slider {
+  width: 370px;
+  height: 510px;
+}
 .first-screen-text button {
   background: #d1a954;
   color: white;
@@ -302,19 +306,23 @@ main {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  margin-bottom: 100px;
 }
 .our__productions__slider {
-  text-align: right;
-  padding-top: 100px;
-}
-.our__productions__content {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
 }
+
 .our__productions__slide {
-  max-width: 442px;
+  max-width: 100%;
   height: 550px;
   position: relative;
+}
+.slide__img img {
+  width: 100%;
+}
+.our__productions__wrapper{
+  padding-left: 150px;
 }
 .slide__img h2 {
   font-family: Open Sans Condensed;

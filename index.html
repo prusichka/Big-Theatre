@@ -16,6 +16,11 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <title>Big Theater</title>
   </head>
   <body>
@@ -59,8 +64,14 @@
             </h4>
             <button>афиша</button>
           </div>
-          <div class="first-screen-slider">
-            <img src="img/first-screen__slider.png" alt="" />
+          <div class="first-screen-slider swiper-container">
+            <div class="afisha__wrapper swiper-wrapper">
+              <div class="afisha__slide swiper-slide">
+                <img src="img/afisha.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
       </div>
@@ -107,9 +118,9 @@
     <section class="our__productions">
       <div class="our__productions__wrapper">
         <h1><span style="color: #d1a954">наши</span>постановки</h1>
-        <div class="our__productions__slider">
-          <div class="our__productions__content">
-            <div class="our__productions__slide">
+        <div class="our__productions__slider swiper-container">
+          <div class="our__productions__content swiper-wrapper">
+            <div class="our__productions__slide swiper-slide">
               <div class="slide__img">
                 <img src="img/slider-4.png" alt="" />
                 <a href="" class="link__slide" tabindex="0"></a>
@@ -117,7 +128,7 @@
                 <h4 class="slide__subtitle">май 2020</h4>
               </div>
             </div>
-            <div class="our__productions__slide">
+            <div class="our__productions__slide swiper-slide">
               <div class="slide__img">
                 <img src="img/slider-3.png" alt="" />
                 <a href="" class="link__slide" tabindex="0"></a>
@@ -125,7 +136,7 @@
                 <h4 class="slide__subtitle">июль 2020</h4>
               </div>
             </div>
-            <div class="our__productions__slide">
+            <div class="our__productions__slide swiper-slide">
               <div class="slide__img">
                 <img src="img/slider-2.png" alt="" />
                 <a href="" class="link__slide" tabindex="0"></a>
@@ -133,7 +144,7 @@
                 <h3>сентябрь 2020</h3>
               </div>
             </div>
-            <div class="our__productions__slide">
+            <div class="our__productions__slide swiper-slide">
               <div class="slide__img">
                 <img src="img/slider-1.png" alt="" />
                 <a href="" class="link__slide" tabindex="0"></a>
@@ -166,5 +177,8 @@
         </div>
       </div>
     </section>
+    <section class="partners"></section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
