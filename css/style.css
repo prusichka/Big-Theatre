@@ -20,6 +20,11 @@ h3 {
 *:after {
   box-sizing: border-box;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 header {
   display: flex;
@@ -492,8 +497,11 @@ main {
   color: #ffffff;
   margin-top: 25px;
 }
-.partners{
+.partners {
   padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
 }
 .partners h2 {
   font-family: Open Sans Condensed;
@@ -506,14 +514,163 @@ main {
   text-transform: uppercase;
   padding-bottom: 100px;
 }
-.slide__column{
+
+.slider3__container {
+  max-width: 1034px;
+  margin: 0 auto;
+  height: 272px;
+}
+.patners__wrapper {
+  display: flex;
+  text-align: center;
+}
+.partners__slide__column {
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mecenat {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mecenat h2 {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 150px;
+}
+
+.mecenat__contact {
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  justify-content: space-around;
+}
+.mecenat__telNumber p {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.form__input input {
+  background: #444444;
+  border: 1px solid #616161;
+  box-sizing: border-box;
+  height: 35px;
+  width: 180px;
+}
+.input__textArea textarea {
+  background: #444444;
+  border: 1px solid #616161;
+  box-sizing: border-box;
+  width: 310px;
+  height: 100px;
+}
+form {
+  height: 190px;
+  max-width: 730px;
+}
+
+.mecenat__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form__input {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 80px;
 }
-.partners__slider{
-  width: 1034px;
+.input__name__number {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.partners__slide__img img {
-  width: 100%;
+.input__company__email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form__text__submit {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  width: 730px;
+}
+.form__text__submit p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+  max-width: 398px;
+}
+.form__text__submit input {
+  background: none;
+  border: none;
+}
+.form__text__submit button {
+  background: #d1a954;
+  width: 190px;
+  height: 50px;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}
+::placeholder {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  padding-left: 15px;
+  color: #989898;
+}
+textarea::placeholder {
+  padding-left: 15px;
+  padding-top: 9px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+footer small {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+}
+.footer__content {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 48px;
+  border-top: 1px solid #565656;
 }

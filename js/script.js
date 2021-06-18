@@ -12,7 +12,6 @@ new Swiper(".our__productions__slider", {
 });
 
 new Swiper(".partners__slider", {
-  slidesPerColumn: 2,
-  slidesPerGroup: 3,
   loop: true,
+  slidesPerView: 4,
 });
