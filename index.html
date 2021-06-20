@@ -25,6 +25,12 @@
   </head>
   <body>
     <main>
+      <div class="main__content">
+      <input type="checkbox" id="check">
+      <label for="check">
+        <img src="img/btn-menu.png" id="btn-on">
+        <img src="img/btn-menu-ex.png" class="exit" id="btn-ex">
+      </label>
       <div class="sideBar">
         <span class="sideBar__title">контактная информация</span>
         <a href="" class="link__img-instagram">
@@ -40,6 +46,33 @@
           <img src="img/youtube.svg" alt="" />
         </a>
       </div>
+      <div class="sideBar__mobile">
+        <div class="header-left-menu">
+          <a href="">Главная</a>
+          <a href="">о театре</a>
+          <a href="">Наши постановки</a>
+          <a href="">партнеры театра</a>
+          <a href="">контакты</a>
+        </div>
+        <div class="menu__links__mobile">
+          <div class="img__mobile__top">
+          <a href="" class="link__img-fb__mobile">
+            <img src="img/Vectorfb__mobile.svg" alt="" />
+          </a>
+          <a href="" class="link__img-instagram__mobile">
+            <img src="img/instagram--activeinst__mobile.svg" alt="" />
+          </a>
+          </div>
+          <div class="img__mobile__bottom">
+          <a href="" class="link__img-YT__mobile">
+            <img src="img/VectorYT__mobile.svg" alt="" />
+          </a>
+          <a href="" class="link__img-vk__mobile">
+            <img src="img/Vectorvk__mobile.svg" alt="" />
+          </a>
+        </div>
+        </div>
+        </div>
       <div class="container">
         <header>
           <div class="header-left">
@@ -64,21 +97,26 @@
             </h4>
             <button>афиша</button>
           </div>
-          <div class="first-screen-slider swiper-container">
-            <div class="afisha__wrapper swiper-wrapper">
-              <div class="afisha__slide swiper-slide">
-                <img src="img/afisha.png" alt="" />
+          <div class="sliderOne">
+            <div class="first-screen-slider swiper-container">
+              <div class="afisha__wrapper swiper-wrapper">
+                <div class="afisha__slide swiper-slide">
+                  <img src="img/afisha.png" alt="" />
+                </div>
               </div>
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper__buttons">
+              <div class="button-prev"><img src="img/prevprev.png" alt=""></div>
+              <div class="button-next"><img src="img/nextnext.png" alt=""></div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
     </main>
     <section class="about">
+      <h1><span style="color: #d1a954">о</span> театре</h1>
       <div class="about__content">
-        <h1><span style="color: #d1a954">о</span> театре</h1>
         <div class="about__content__main">
           <div class="best__theater">
             <span>Самый лучший театр СПБ</span>
@@ -231,10 +269,14 @@
       <h2><span style="color: #d1a954">стать</span>меценатом</h2>
         <div class="mecenat__contact">
           <div class="mecenat__telNumber">
+            <div class="mecenat__tel">
             <p>+7 (812) 123-45-55</p>
             <p>+7 (812) 123-45-55</p>
+          </div>
+          <div class="mecenat__contact__adress">
             <p>info@theater.ru</p>
             <p>г. санкт-петербург, невский 140</p>
+          </div>
           </div>
           <form action="" class="mecenat__form">
             <div class="form__input">
