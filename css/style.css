@@ -926,4 +926,42 @@ footer small {
   .slider3__container{
     max-width: 510px;
   }
+  .stars__content{
+    width: 100%;
+  }
+  .stars__subtitle {
+    max-width: 330px;
+    font-size: 30px;
+  }
+  .years{
+    margin:0;
+  }
+  .stars__content__right{
+    margin: 0;
+    margin-left: 25px;
+  }
 } 
+@media screen and (max-width: 576px) {
+  .about__content__main {
+    flex-direction: column;
+  }
+  .about h1{
+    padding-left: 0;
+  }
+  .best__theater{
+    text-align: center;
+  }
+  .best__theater h4{
+    max-width: 504px;
+  }
+  .about__theater h4{
+    text-align: center;
+  }
+  .about__theater__content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .our__productions {
+    padding-top: 80px;
+  }
+}
