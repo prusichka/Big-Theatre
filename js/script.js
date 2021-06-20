@@ -13,7 +13,7 @@ new Swiper(".our__productions__slider", {
     1415: {
       slidesPerView: 4,
     },
-    768: {
+    767: {
       slidesPerView: 2,
     },
     300: {
@@ -29,10 +29,7 @@ new Swiper(".partners__slider", {
     1415: {
       slidesPerView: 4,
     },
-    992: {
-      slidesPerView: 3,
-    },
-    768: {
+    767: {
       slidesPerView: 3,
     },
     300: {
