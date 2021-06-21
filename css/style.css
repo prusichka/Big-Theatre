@@ -886,6 +886,9 @@ footer small {
   form {
     max-width: 509px;
   }
+  .best__theater{
+    padding-left: 10px;
+  }
   .form__input {
     max-width: 509px;
     flex-wrap: wrap;
