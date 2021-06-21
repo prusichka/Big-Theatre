@@ -886,7 +886,7 @@ footer small {
   form {
     max-width: 509px;
   }
-  .form__input{
+  .form__input {
     max-width: 509px;
     flex-wrap: wrap;
     align-items: center;
@@ -899,62 +899,66 @@ footer small {
     margin-top: 30px;
   }
   .input__company__email,
-  .input__name__number{
+  .input__name__number {
     height: 100px;
   }
-  .form__text__submit{
+  .form__text__submit {
     flex-wrap: wrap-reverse;
     width: 435px;
     height: 130px;
     justify-content: center;
     margin: 40px auto;
   }
-  .form__text__submit p{
+  .form__text__submit p {
     text-align: center;
     margin-top: 30px;
   }
-  .mecenat__telNumber{
+  .mecenat__telNumber {
     margin-top: 200px;
     width: 509px;
   }
-  .mecenat__contact{
+  .mecenat__contact {
     margin-bottom: 60px;
   }
-  .footer__content{
+  .footer__content {
     width: 504px;
   }
-  .slider3__container{
+  .slider3__container {
     max-width: 510px;
   }
-  .stars__content{
+  .stars__content {
     width: 100%;
   }
   .stars__subtitle {
     max-width: 330px;
     font-size: 30px;
   }
-  .years{
-    margin:0;
+  .years {
+    margin: 0;
   }
-  .stars__content__right{
+  .stars__content__right {
     margin: 0;
     margin-left: 25px;
   }
-} 
+}
 @media screen and (max-width: 576px) {
+  .first-screen-text h1 {
+    font-size: 56px;
+  }
   .about__content__main {
     flex-direction: column;
   }
-  .about h1{
+  .about h1 {
     padding-left: 0;
   }
-  .best__theater{
+  .best__theater {
     text-align: center;
+    margin-bottom: 80px;
   }
-  .best__theater h4{
-    max-width: 504px;
+  .best__theater h4 {
+    max-width: 330px;
   }
-  .about__theater h4{
+  .about__theater h4 {
     text-align: center;
   }
   .about__theater__content {
@@ -963,5 +967,62 @@ footer small {
   }
   .our__productions {
     padding-top: 80px;
+  }
+  .stars__subtitle {
+    font-size: 24px;
+    width: 100%;
+  }
+  .star__block {
+    width: 160px;
+  }
+  .years h2 {
+    font-size: 56px;
+  }
+  .slider3__container {
+    width: 100%;
+  }
+  .input__textArea {
+    margin: 30px auto;
+  }
+  .input__textArea textarea {
+    width: 330px;
+  }
+  .form__input input {
+    width: 157px;
+  }
+  .input__name__number {
+    margin: 0 auto;
+  }
+  .input__company__email {
+    margin: 0 auto;
+  }
+  .form__input {
+    max-width: 331px;
+    margin: 0 auto;
+  }
+  .mecenat__telNumber {
+    width: 330px;
+    margin-top: 220px;
+  }
+  .mecenat h2 {
+    font-size: 36px;
+  }
+  .partners h2 {
+    font-size: 36px;
+  }
+  .form__text__submit {
+    width: 330px;
+  }
+  .mecenat__telNumber p {
+    font-size: 12px;
+  }
+  .footer__content {
+    width: 330px;
+  }
+  .our__productions h1 {
+    font-size: 36px;
+  }
+  about__theater {
+    padding-top: 30px;
   }
 }

@@ -32,8 +32,11 @@ new Swiper(".partners__slider", {
     767: {
       slidesPerView: 3,
     },
+    576: {
+      slidesPerView : 2,
+    },
     300: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
   },
 });
