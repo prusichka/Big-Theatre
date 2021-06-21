@@ -50,6 +50,7 @@ label #btn-on {
   left: 40px;
   top: 60px;
   display: none;
+  z-index: 1111;
 }
 label #btn-ex {
   left: 246px;
@@ -943,6 +944,12 @@ footer small {
     margin: 0;
     margin-left: 25px;
   }
+  .our__productions__wrapper {
+    padding: 0 30px;
+  }
+  .header-right a{
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 576px) {
   .first-screen-text h1 {
@@ -951,9 +958,16 @@ footer small {
   .first-screen-text{
     padding: 0 10px;
   }
-  .header-right a{
-    margin: 0 10px;
+  .slide__title {
+    font-size: 20px;
   }
+  .slide__img h3 {
+    bottom: 65px;
+  }
+  .slide__subtitle {
+    font-size: 16px;
+  }
+
   .about__content__main {
     flex-direction: column;
   }

@@ -7,17 +7,22 @@ new Swiper(".first-screen-slider", {
 });
 
 new Swiper(".our__productions__slider", {
+  direction: "horizontal",
   loop: true,
   slidesPerView: 4,
   breakpoints: {
     1415: {
       slidesPerView: 4,
     },
-    767: {
-      slidesPerView: 2,
+    768: {
+      slidesPerView: 1.5,
+      // centeredSlides: true,
     },
-    300: {
-      slidesPerView: 1,
+    425: {
+      slidesPerView: 1.25,
+    },
+    200: {
+      slidesPerView: 1.15,
     },
   },
 });
@@ -29,7 +34,7 @@ new Swiper(".partners__slider", {
     1415: {
       slidesPerView: 4,
     },
-    767: {
+    769: {
       slidesPerView: 3,
     },
     576: {
