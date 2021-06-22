@@ -252,7 +252,8 @@ header {
   overflow: hidden;
 }
 .sideBar__title {
-  font-family: Open Sans Condensed Bold;
+  font-family: Open Sans Condensed;
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
