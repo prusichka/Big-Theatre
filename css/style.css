@@ -311,10 +311,10 @@ header {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  text-align: center;
   padding-top: 150px;
   margin-bottom: 100px;
   padding-left: 50px;
+  color: white;
 }
 .about__content {
   display: flex;
@@ -405,6 +405,7 @@ header {
   line-height: 22px;
   letter-spacing: 0.05em;
   margin: 0;
+  color: white;
 }
 .about__img {
   width: 350px;
@@ -428,6 +429,7 @@ header {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 100px;
+  color: white;
 }
 .our__productions__slider {
   display: flex;
@@ -632,6 +634,7 @@ header {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   padding-bottom: 100px;
+  color: white;
 }
 
 .slider3__container {
@@ -665,6 +668,7 @@ header {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 150px;
+  color: white;
 }
 
 .mecenat__contact {
@@ -759,7 +763,7 @@ form {
   color: #ffffff;
   border: none;
 }
-::placeholder {
+.form__input input::placeholder {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -768,10 +772,17 @@ form {
   padding-left: 15px;
   color: #989898;
 }
-textarea::placeholder {
+.form__input textarea::placeholder {
   padding-left: 15px;
   padding-top: 9px;
+  color: #989898;
 }
+:-moz-placeholder {
+  padding-left: 15px;
+  padding-top: 9px;
+  color: #989898;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -888,7 +899,7 @@ footer small {
   form {
     max-width: 509px;
   }
-  .best__theater{
+  .best__theater {
     padding-left: 10px;
   }
   .form__input {
@@ -948,15 +959,18 @@ footer small {
   .our__productions__wrapper {
     padding: 0 30px;
   }
-  .header-right a{
-    margin: 0 10px;
+  .header-right a {
+    margin: 0 30px;
+  }
+  .about__theater {
+    padding: 0 10px;
   }
 }
 @media screen and (max-width: 576px) {
   .first-screen-text h1 {
     font-size: 56px;
   }
-  .first-screen-text{
+  .first-screen-text {
     padding: 0 10px;
   }
   .slide__title {
@@ -977,7 +991,6 @@ footer small {
   }
   .best__theater {
     text-align: center;
-
   }
   .best__theater h4 {
     max-width: 330px;
@@ -1004,7 +1017,7 @@ footer small {
   .star__block {
     width: 160px;
   }
-  .stars__content__right{
+  .stars__content__right {
     margin-left: 10px;
   }
   .years {

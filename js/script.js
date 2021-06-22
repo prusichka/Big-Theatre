@@ -11,12 +11,17 @@ new Swiper(".our__productions__slider", {
   loop: true,
   slidesPerView: 4,
   breakpoints: {
-    1415: {
+    1620: {
       slidesPerView: 4,
+    },
+    1415: {
+      slidesPerView: 3.25,
+    },
+    992: {
+      slidesPerView: 2.15,
     },
     768: {
       slidesPerView: 1.5,
-      // centeredSlides: true,
     },
     425: {
       slidesPerView: 1.25,
