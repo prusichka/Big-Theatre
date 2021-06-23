@@ -763,23 +763,25 @@ form {
   color: #ffffff;
   border: none;
 }
+.form__input input {
+  padding-left: 15px;
+}
+.form__input textarea {
+  padding-left: 15px;
+  padding-top: 9px;
+}
 .form__input input::placeholder {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 150%;
-  padding-left: 15px;
   color: #989898;
 }
 .form__input textarea::placeholder {
-  padding-left: 15px;
-  padding-top: 9px;
-  color: #989898;
-}
-:-moz-placeholder {
-  padding-left: 15px;
-  padding-top: 9px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
   color: #989898;
 }
 
