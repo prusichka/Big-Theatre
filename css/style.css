@@ -896,6 +896,12 @@ footer small {
   .stars__subtitle {
     max-width: 450px;
   }
+  .header-right a {
+    margin: 0 30px;
+  }
+  .our__productions__wrapper {
+    padding-right: 30px;
+  }
 }
 @media screen and (max-width: 768px) {
   form {
@@ -944,6 +950,9 @@ footer small {
   .slider3__container {
     max-width: 510px;
   }
+  .stars {
+    margin-top: 90px;
+  }
   .stars__content {
     width: 100%;
   }
@@ -961,9 +970,10 @@ footer small {
   .our__productions__wrapper {
     padding: 0 30px;
   }
-  .header-right a {
-    margin: 0 30px;
+  .our__productions h1 {
+    margin-bottom: 60px;
   }
+
   .about__theater {
     padding: 0 10px;
   }
@@ -995,8 +1005,8 @@ footer small {
     text-align: center;
   }
   .best__theater h4 {
-    max-width: 330px;
-    height: 350px;
+    max-width: 504px;
+    height: 290px;
     padding: 0 0.2rem;
   }
   .about__theater__bottom h6 {
@@ -1004,6 +1014,7 @@ footer small {
   }
   .about__theater h4 {
     text-align: center;
+    padding: 40px 0;
   }
   .about__theater__content {
     display: flex;
@@ -1011,6 +1022,10 @@ footer small {
   }
   .our__productions {
     padding-top: 80px;
+  }
+  .our__productions h1 {
+    margin-bottom: 60px;
+    font-size: 36px;
   }
   .stars__subtitle {
     font-size: 24px;
@@ -1069,9 +1084,6 @@ footer small {
   }
   .footer__content {
     width: 330px;
-  }
-  .our__productions h1 {
-    font-size: 36px;
   }
   about__theater {
     padding-top: 30px;

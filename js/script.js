@@ -37,16 +37,24 @@ new Swiper(".partners__slider", {
   slidesPerView: 4,
   breakpoints: {
     1415: {
+      centeredSlides: false,
       slidesPerView: 4,
     },
     769: {
+      centeredSlides: false,
       slidesPerView: 3,
     },
     576: {
-      slidesPerView : 2,
+      centeredSlides: false,
+      slidesPerView: 2,
+    },
+    420: {
+      centeredSlides: true,
+      slidesPerView: 1.8,
     },
     300: {
-      slidesPerView: 1,
+      centeredSlides: true,
+      slidesPerView: 1.5,
     },
   },
 });
