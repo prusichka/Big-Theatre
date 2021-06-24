@@ -762,6 +762,7 @@ form {
   text-transform: uppercase;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 .form__input input {
   padding-left: 15px;
@@ -1039,7 +1040,7 @@ footer small {
     margin-left: 10px;
   } */
   .years {
-    padding : 0 20px;
+    padding: 0 20px;
   }
   .years h2 {
     font-size: 56px;
