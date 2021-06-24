@@ -965,7 +965,7 @@ footer small {
   }
   .stars__content__right {
     margin: 0;
-    margin-left: 25px;
+    margin-left: 5px;
   }
   .our__productions__wrapper {
     padding: 0 30px;
@@ -1003,11 +1003,12 @@ footer small {
   }
   .best__theater {
     text-align: center;
+    padding-left: 0;
   }
   .best__theater h4 {
     max-width: 504px;
     height: 290px;
-    padding: 0 0.2rem;
+    padding: 0 1rem;
   }
   .about__theater__bottom h6 {
     padding-top: 3px;
@@ -1034,11 +1035,11 @@ footer small {
   .star__block {
     width: 160px;
   }
-  .stars__content__right {
+  /* .stars__content__right {
     margin-left: 10px;
-  }
+  } */
   .years {
-    padding-left: 10px;
+    padding : 0 20px;
   }
   .years h2 {
     font-size: 56px;
